@@ -7,7 +7,10 @@ plugins {
 }
 
 kotlin {
-    // 1. Target Platforms
+    // Apply default hierarchy template so iosMain is automatically shared across all iOS targets
+    applyDefaultHierarchyTemplate()
+
+    // 1. Android Target
     androidTarget {
         publishLibraryVariants("release", "debug")
         compilerOptions {
@@ -15,7 +18,13 @@ kotlin {
         }
     }
 
+    // 2. Desktop JVM Target
     jvm("desktop")
+
+    // 3. iOS Targets (prevents missing variant errors in full KMP projects)
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
 
     sourceSets {
         commonMain.dependencies {
@@ -26,7 +35,7 @@ kotlin {
         }
 
         androidMain.dependencies {
-            implementation("androidx.core:core-ktx:1.12.0")
+            implementation("androidx.core:core-ktx:1.13.1")
         }
 
         named("desktopMain") {
@@ -36,13 +45,13 @@ kotlin {
         }
     }
 
-    // 2. JitPack-Compatible Publishing Configuration
+    // 4. JitPack Publishing Configuration (Bumped to 1.1.0)
     publishing {
         publications {
             withType<MavenPublication> {
-                groupId = "com.github.I-am-Manu-Singh" // <--- Updated for JitPack
+                groupId = "com.github.I-am-Manu-Singh"
                 artifactId = "wearflex"
-                version = "1.0.0"
+                version = "1.1.0"
             }
         }
     }

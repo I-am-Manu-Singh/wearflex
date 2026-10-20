@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../wearflex/1.0.0/wearflex-1.0.0.module",
-    "group": "com.creativeblisslabs",
+    "url": "../../wearflex/1.1.0/wearflex-1.1.0.module",
+    "group": "com.github.I-am-Manu-Singh",
     "module": "wearflex",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -36,12 +36,12 @@
       "files": [
         {
           "name": "wearflex-debug.aar",
-          "url": "wearflex-android-debug-1.0.0.aar",
-          "size": 9568,
-          "sha512": "b6881c1644cdd941db957ba15b2986144463688c1f5f520413a931117f0b5c50e131eaf6a2daac5f7515c88496472c530512a4be71f7875f51026571332f759c",
-          "sha256": "0a96d01d5ff3289cd3201f667870bcca25d5a9c9dfbb705a5f3b99cec43d697c",
-          "sha1": "203b1d9d4ef888255a3e11650bf2a085dcc41a2b",
-          "md5": "faf70a9d606bd476be7585773a44ff61"
+          "url": "wearflex-android-debug-1.1.0.aar",
+          "size": 77030,
+          "sha512": "2c4482fa7ee1c98bb7c03de45081d1074e7119981d599c8b35245c0e6f1821b8f832b12577e04cdba5ddf71e1ac3a25486154f50dea9e831f563bfb45ffb0dfc",
+          "sha256": "c57dacd8cfb007c0b4ab76b6e7b5775b83d48ddda8c9eb2168a6bc12d5b6bacc",
+          "sha1": "b1f6ecbb9a55d4b370ab940bf5f9a5430ccf8758",
+          "md5": "32892595fb48aeade405fde6313d7dab"
         }
       ]
     },
@@ -59,7 +59,7 @@
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
-            "requires": "1.12.0"
+            "requires": "1.13.1"
           },
           "excludes": [
             {
@@ -185,12 +185,12 @@
       "files": [
         {
           "name": "wearflex-debug.aar",
-          "url": "wearflex-android-debug-1.0.0.aar",
-          "size": 9568,
-          "sha512": "b6881c1644cdd941db957ba15b2986144463688c1f5f520413a931117f0b5c50e131eaf6a2daac5f7515c88496472c530512a4be71f7875f51026571332f759c",
-          "sha256": "0a96d01d5ff3289cd3201f667870bcca25d5a9c9dfbb705a5f3b99cec43d697c",
-          "sha1": "203b1d9d4ef888255a3e11650bf2a085dcc41a2b",
-          "md5": "faf70a9d606bd476be7585773a44ff61"
+          "url": "wearflex-android-debug-1.1.0.aar",
+          "size": 77030,
+          "sha512": "2c4482fa7ee1c98bb7c03de45081d1074e7119981d599c8b35245c0e6f1821b8f832b12577e04cdba5ddf71e1ac3a25486154f50dea9e831f563bfb45ffb0dfc",
+          "sha256": "c57dacd8cfb007c0b4ab76b6e7b5775b83d48ddda8c9eb2168a6bc12d5b6bacc",
+          "sha1": "b1f6ecbb9a55d4b370ab940bf5f9a5430ccf8758",
+          "md5": "32892595fb48aeade405fde6313d7dab"
         }
       ]
     },
@@ -209,12 +209,12 @@
       "files": [
         {
           "name": "wearflex-android-debug-sources.jar",
-          "url": "wearflex-android-debug-1.0.0-sources.jar",
-          "size": 2842,
-          "sha512": "1b76010a14038a5169ff62a55b696bb5a63cbfb89ebb2f0d7918d018cdc0ac47bc416e541cfa69edc56f05019a9c7f7b4fb7db2a9586d842db57dcdf784e2ace",
-          "sha256": "bab444bfe0dffda81b4260e5157be3f3e7d6e026cbc1ba3f772e1d7fcc8dac97",
-          "sha1": "560fb9fb2383709b92ad7abcedeaf279bc97f3f5",
-          "md5": "276285ea17dc36767e2218862d50f03f"
+          "url": "wearflex-android-debug-1.1.0-sources.jar",
+          "size": 9020,
+          "sha512": "d77207d0e14ceb1f18cea23ae44e7a620a5db84807d6e977263e09517d0facc2e203317611a10faceae735faa94b0763ed477de09632af1948b06d3f0c189805",
+          "sha256": "03fcc22b3c8fd710132b61ad4665279d1b979e6bafbdaec5a33cd50aca1d80f4",
+          "sha1": "00f94e9af425a208caf78a2b0e611f9a8a04cbd4",
+          "md5": "aebf0181c510be6bebf1320834b509ba"
         }
       ]
     }

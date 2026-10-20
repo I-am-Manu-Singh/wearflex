@@ -1,4 +1,4 @@
-package com.creativeblisslabs.wearflex
+package com.example.myapplication
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,6 +10,11 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+
+// Import WearFlex components
+import com.creativeblisslabs.wearflex.AdaptiveScreenScaffold
+import com.creativeblisslabs.wearflex.ViewportType
+import com.creativeblisslabs.wearflex.wearFlexTouchTarget
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,10 +29,17 @@ class MainActivity : ComponentActivity() {
                         Box(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .adaptiveTouchTarget(isWearable = viewport == ViewportType.CircularWear),
+                                .wearFlexTouchTarget(viewport),
                             contentAlignment = Alignment.Center
                         ) {
-                            Text(text = "WearFlex Active!\nViewport: $viewport")
+                            val modeDescription = when (viewport) {
+                                is ViewportType.CircularWear -> "Circular Watch"
+                                is ViewportType.SquareWear -> "Square Watch"
+                                is ViewportType.CompactPhone -> "Phone"
+                                is ViewportType.MediumTablet -> "Tablet"
+                                is ViewportType.ExpandedScreen -> "Desktop"
+                            }
+                            Text(text = "WearFlex Active!\nViewport: $modeDescription")
                         }
                     }
                 }

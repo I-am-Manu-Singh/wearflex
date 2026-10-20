@@ -1,0 +1,220 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../wearflex/1.1.0/wearflex-1.1.0.module",
+    "group": "com.github.I-am-Manu-Singh",
+    "module": "wearflex",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex-iosSimulatorArm64Main.klib",
+          "url": "wearflex-1.1.0.klib",
+          "size": 53802,
+          "sha512": "e87fb98042ae489625daaf10bde38703b4670b098a0480b9c078a61ff623807842b5fb298f441666e881d9b63bea39e552b06e14a211af2aeb29b17d2206b52c",
+          "sha256": "b86b1b2a89d988890c6b3824516ff073122a2dd9b34dfc8444e5a09ff72a7ce2",
+          "sha1": "b0e1ef0934f70ffecf541d143bbd3d38ee6423e4",
+          "md5": "6f9e0a97e3d9c9d4b66c8da6f79cfcd8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "wearflex-iossimulatorarm64-sources.jar",
+          "url": "wearflex-1.1.0-sources.jar",
+          "size": 8932,
+          "sha512": "8c48fe6a9e631f5df0e9f93139ee1c2ae4e8eafc3decf44bb03603557f21ed467c766ce7dcbc1426fca75e7a107140ec48cf2ef4a7012985cec690ac933a6f2a",
+          "sha256": "a25e5a4a602c162fd112b682e28d604ec0bf34aaaaeaa21dac64194048c1c000",
+          "sha1": "11f0c65110c2019ff8e0274df634d33effbfe44f",
+          "md5": "4228b7db7e16fdec8a14db9d1ec00515"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex.kotlin_resources.zip",
+          "url": "wearflex-1.1.0-kotlin_resources.kotlin_resources.zip",
+          "size": 322,
+          "sha512": "63e723a34c0ab18c262088d753856e24888e9c586423887996261bef3aca9ed5ccaac82e7afcaa98337466cb1c0d4be88a9d06804da86ee005f5299a148b6e76",
+          "sha256": "8f82bd1572ccfe510e91b528890ebd20636c5ded4db196f3fdd2e866a53ccdeb",
+          "sha1": "699a6335158a887a60788c973de96327d8cbe4a3",
+          "md5": "46bdbce5043ca7171352054564378ce9"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex-iossimulatorarm64-metadata.jar",
+          "url": "wearflex-1.1.0-metadata.jar",
+          "size": 2560,
+          "sha512": "c234f4b008b146254e5127a23ebd9f9e08a7dc83d6139aa2b8b3f5749ea8cd6f43c22cb307814b6f9ebcd15c0b3aa5dc5ad7a715aa67a546ec50e630d56af778",
+          "sha256": "a53feaaed58a1cd907651a2b26e64e5697911decbab1a043900c174c1e197e2f",
+          "sha1": "1a6b18bf51f3a2f81eeffa0bf2e346543d1db8b6",
+          "md5": "8c13efa7fd4d1b2d555b97591a2ae5ef"
+        }
+      ]
+    }
+  ]
+}

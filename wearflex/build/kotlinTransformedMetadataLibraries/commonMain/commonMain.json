@@ -25,16 +25,6 @@
     "sourceSetName": "commonMain"
   },
   {
-    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
-    "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-concurrentMain-UxhG-g.klib",
-    "sourceSetName": "concurrentMain"
-  },
-  {
-    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
-    "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-commonMain-UxhG-g.klib",
-    "sourceSetName": "commonMain"
-  },
-  {
     "moduleId": "module org.jetbrains.compose.animation:animation:1.7.3",
     "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-1.7.3-commonMain-TojQLQ.klib",
     "sourceSetName": "commonMain"
@@ -87,6 +77,16 @@
   {
     "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.7.3",
     "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-layout-1.7.3-commonMain-Nkt8ew.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+    "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-concurrentMain-UxhG-g.klib",
+    "sourceSetName": "concurrentMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+    "file": "/Users/manpreet/Desktop/AndroidStudioProjects/wearflex/wearflex/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-commonMain-UxhG-g.klib",
     "sourceSetName": "commonMain"
   }
 ]

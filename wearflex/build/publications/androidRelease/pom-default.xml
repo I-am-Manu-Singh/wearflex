@@ -6,9 +6,9 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.creativeblisslabs</groupId>
+  <groupId>com.github.I-am-Manu-Singh</groupId>
   <artifactId>wearflex-android</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.12.0</version>
+      <version>1.13.1</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
