@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.creativeblisslabs.wearflex
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,12 +10,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-
-// Import WearFlex components
-import com.creativeblisslabs.wearflex.AdaptiveScreenScaffold
-import com.creativeblisslabs.wearflex.ViewportType
-import com.creativeblisslabs.wearflex.wearFlexTouchTarget
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

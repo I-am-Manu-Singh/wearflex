@@ -9,7 +9,14 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+build/
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+# IntelliJ IDEA and Android Studio project-specific files
+.idea/
+
+# Kotlin compiler and build caches
+.kotlin/
