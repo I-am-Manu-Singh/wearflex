@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.creativeblisslabs",
+    "module": "wearflex",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex-metadata.jar",
+          "url": "wearflex-1.0.0.jar",
+          "size": 695,
+          "sha512": "d38be97b58248a5272bc0a38eb1cc7853b19809d4bdf9521dae804d17e5b93a9e6b487ec49f9fa0d5051926d5d47d0926044d6e5d7606219111fa1b361d312ac",
+          "sha256": "12a06031c4b8cf55e3d5ef67cc2e0853912b4860b1839183d9ca588810155904",
+          "sha1": "bf33183d48e50c946d36046b58aa63644187f5ff",
+          "md5": "c431fd7d8448e00f2f2a6335d5ec67d4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "wearflex-kotlin-sources.jar",
+          "url": "wearflex-1.0.0-sources.jar",
+          "size": 2320,
+          "sha512": "0dca992795e706a40b0dcc59da88498690fb5a82e68bd43f953cf109e910287b4e0286c5a2a51f73afd9e67d9dc6566220c99e913f4f7bf31c4a5f3800ae7218",
+          "sha256": "2d71ae3fbccceafe8dfb0233f4cd4968ccb4daa3fff057e92c395a67a1426cf4",
+          "sha1": "f0d9cee6d72f14ae05b717ef8a2d2cf283282ab0",
+          "md5": "2bf92837b5f858156b64a65d74f530d1"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android-debug/1.0.0/wearflex-android-debug-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android-debug/1.0.0/wearflex-android-debug-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android-debug/1.0.0/wearflex-android-debug-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android-debug",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android/1.0.0/wearflex-android-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android/1.0.0/wearflex-android-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../wearflex-android/1.0.0/wearflex-android-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../wearflex/1.0.0/wearflex-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../wearflex/1.0.0/wearflex-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../wearflex/1.0.0/wearflex-1.0.0.module",
+        "group": "com.creativeblisslabs",
+        "module": "wearflex",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

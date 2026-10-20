@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../wearflex/1.0.0/wearflex-1.0.0.module",
+    "group": "com.creativeblisslabs",
+    "module": "wearflex",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex-desktop.jar",
+          "url": "wearflex-1.0.0.jar",
+          "size": 9724,
+          "sha512": "7bc91d5e2ec3e3ce37ecc7009b94d278b5d831fd4f26e4f187fac626ba280b7c33499f8f46191e85319716b3256ce22392c414dc29543c2c66cc592f84627a58",
+          "sha256": "915378521c2d513fe7c4efe7709737f4b4a1432c78be204a5ad6f14ae2148b84",
+          "sha1": "b4765b0e009720ab36f0705cd367d44532e88b8d",
+          "md5": "9dc2e054e1214088a805299383b751e8"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wearflex-desktop.jar",
+          "url": "wearflex-1.0.0.jar",
+          "size": 9724,
+          "sha512": "7bc91d5e2ec3e3ce37ecc7009b94d278b5d831fd4f26e4f187fac626ba280b7c33499f8f46191e85319716b3256ce22392c414dc29543c2c66cc592f84627a58",
+          "sha256": "915378521c2d513fe7c4efe7709737f4b4a1432c78be204a5ad6f14ae2148b84",
+          "sha1": "b4765b0e009720ab36f0705cd367d44532e88b8d",
+          "md5": "9dc2e054e1214088a805299383b751e8"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "wearflex-desktop-sources.jar",
+          "url": "wearflex-1.0.0-sources.jar",
+          "size": 2842,
+          "sha512": "b228935cbf0bfbc826ebc7fe4efbf302764b71053c76812b7c3c569ed64969ef29a199a93fb99b03ac340111701bff6dcb31544e15040cbc6e70505e9d1e9321",
+          "sha256": "fc4eb7030ca5efc68f469d3c3a714031b13b75d3be0cb3849ea5ff0df0e7bcf2",
+          "sha1": "c6118776af7c9baa57d342cb4a3a400c55b384ca",
+          "md5": "f2271dd09f7a31161636cde3a0acd9dd"
+        }
+      ]
+    }
+  ]
+}

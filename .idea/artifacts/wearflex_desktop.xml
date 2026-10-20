@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wearflex-desktop">
+    <output-path>$PROJECT_DIR$/wearflex/build/libs</output-path>
+    <root id="archive" name="wearflex-desktop.jar">
+      <element id="module-output" name="wearflex.wearflex.desktopMain" />
+    </root>
+  </artifact>
+</component>
